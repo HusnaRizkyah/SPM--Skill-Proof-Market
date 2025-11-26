@@ -1,4 +1,3 @@
-/* === NAVBAR === */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -9,13 +8,13 @@
 }
   
   .logo-section {
-    flex-grow: 1;               /* Membuat logo melebar ke kanan */
+    flex-grow: 1;              
     display: flex;
     align-items: center;
 }
 
 .logo-section img {
-    width: 100px;               /* Ubah ukuran sesuai kebutuhan */
+    width: 100px;               
     height: auto;
     object-fit: contain;
 }
@@ -31,7 +30,6 @@
     text-decoration: underline;
   }
   
- /* === HERO SECTION === */
 .hero {
     display: flex;
     flex-direction: column;
@@ -40,7 +38,7 @@
     padding: 3rem 2rem;
     background-color: #fff;
     text-align: center;
-    gap: 2rem; /* jarak antar teks dan gambar */
+    gap: 2rem; 
   }
   
   @media (min-width: 768px) {
@@ -49,7 +47,7 @@
       justify-content: center;
       align-items: center;
       text-align: left;
-      gap: 3rem; /* atur jarak antara teks dan gambar di desktop */
+      gap: 3rem; 
     }
   }
   
@@ -93,18 +91,16 @@
     }
   }
   
- /* === STATISTIK === */
 .stats {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 3rem;
-  margin-top: 3rem;        /* sebelumnya 4rem → dikurangi */
+  margin-top: 3rem;       
   padding: 2rem 3rem;
   flex-wrap: wrap;
 }
 
-/* Bungkus setiap statistik dan gambar agar sejajar */
 .card {
   display: flex;
   align-items: center;
@@ -118,7 +114,6 @@
   gap: 1rem;
 }
 
-/* Teks di kiri */
 .card-text {
   flex: 1;
   text-align: left;
@@ -134,7 +129,7 @@
 .card h3 {
   font-size: 1rem;
   font-weight: 600;
-  color: #000000; /* hijau tua */
+  color: #000000; 
   margin-bottom: 0.4rem;
 }
 
@@ -142,20 +137,18 @@
   color: #000000;
 }
 
-/* Gambar di kanan */
 .card img {
   width: 120px;
   height: 120px;
   object-fit: contain;
 }
 
-/* === SETOR SAMPAH === */
 .setor {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 3rem;
-  margin-top: 0rem;        /* sebelumnya 5rem → dikurangi agar lebih dekat ke statistik */
+  margin-top: 0rem;       
   padding: 3rem;
   flex-wrap: wrap;
 }
@@ -171,22 +164,22 @@
   padding: 2rem 3rem;
   width: 35rem;
   gap: 1.5rem;
-  flex-direction: row; /* gambar di kiri, teks di kanan */
+  flex-direction: row; 
 }
 
 .setor-card img {
   width: 100px;
   height: 100px;
   object-fit: contain;
-  order: 0; /* pastikan gambar tetap di kiri */
+  order: 0; 
 }
 
 .setor-card-text {
   flex: 1;
   display: flex;
   flex-direction: column;
-  align-items: center; /* menengahkan tombol */
-  text-align: center;  /* menengahkan teks juga */
+  align-items: center; 
+  text-align: center;  
 }
 
 .setor-card h3 {
@@ -209,14 +202,12 @@
   background-color: #C8D8E4;
 }
 
-/* Gambar di kanan */
 .setor-card img {
   width: 100px;
   height: 100px;
   object-fit: contain;
 }
 
-/* Responsif */
 @media (max-width: 768px) {
   .card,
   .setor-card {
@@ -235,7 +226,6 @@
   }
 }
 
-  /* === FOOTER === */
   .footer {
     background-color: #C8D8E4;
     color: 2B6777;
