@@ -19,7 +19,6 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-/* CONTAINER */
 .container {
   max-width: 1200px;
   margin-left: auto;
@@ -27,15 +26,13 @@ body {
   padding: 0 20px;
 }
 
- /* Main Hero Section yang menggabungkan header dan hero */
  .main-hero {
             background-color: #fff;
             min-height: 70vh;
             position: relative;
             overflow: hidden;
         }
-        
-        /* Header Styles - Bagian dari main-hero */
+
         .header {
             background-color:transparent;
             padding: 15px 40px;
@@ -115,14 +112,11 @@ body {
             color: #3498db;
         }
         
-
-/* MAIN */
 main {
   padding-bottom: 80px;
   text-align: center;
 }
 
-/* SECTION TITLE */
 .section-title {
   font-weight: 700;
   font-size: 26px;
@@ -139,7 +133,6 @@ main {
   border-radius: 3px;
 }
 
-/* FILTERS */
 .filters {
   display: inline-flex;
   border-radius: 36px;
@@ -180,7 +173,6 @@ main {
   color: #5A5EFF;
 }
 
-/* CARDS CONTAINER */
 .cards {
   display: flex;
   justify-content: center;
@@ -189,14 +181,13 @@ main {
   overflow-x: auto;
   scroll-behavior: smooth;
   padding-bottom: 10px;
-  scrollbar-width: none; /* Firefox */
-  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;
+  -ms-overflow-style: none;  
 }
 .cards::-webkit-scrollbar {
   display: none;
 }
 
-/* CARD */
 .card {
   background-color: #F9FBFF;
   border-radius: 16px;
@@ -274,7 +265,6 @@ main {
   user-select: none;
 }
 
-/* PRICE & BUTTON */
 .card-footer {
   display: flex;
   gap: 14px;
@@ -306,7 +296,6 @@ main {
   background-color: #2D47DA;
 }
 
-/* PAGINATION */
 .pagination {
   margin-top: 52px;
   display: flex;
@@ -335,7 +324,6 @@ main {
   background-color: #c3c3ff;
 }
 
-/* FOOTER */
 footer {
   background-color: #EBEFF1;
   text-align: center;
@@ -346,7 +334,6 @@ footer {
   user-select: none;
 }
 
-/* Responsive small tweaks */
 @media (max-width: 1280px) {
   .cards {
     justify-content: flex-start;
@@ -372,9 +359,7 @@ footer {
 
 </head>
 <body>
-    <!-- Main Hero Section yang menggabungkan header dan hero -->
     <section class="main-hero">
-        <!-- Header sebagai bagian dari main-hero -->
         <div class="header">
             <div class="logo-container">
                 <div class="logo">SPM</div>
@@ -384,8 +369,8 @@ footer {
                 <div class="nav-links">
                     <a href="Profiletalent.html">Cari Talent</a>
                     <a href="Exploreproject.html">Cari Proyek</a>
-                    <a href="">Talent</a>
-                    <a href="Dashboardtalent.html">UMKM</a>
+                    <a href="Dashboardtalent.html">Talent</a>
+                    <a href="Dashboardumkm.html">UMKM</a>
                 </div>
                 <a href="Login.html" class="login-link">Login</a>
                 <a href="register.html" class="register-link">Register</a>
