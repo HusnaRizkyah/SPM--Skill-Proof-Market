@@ -416,20 +416,15 @@
     color: #222;
   }
   .contact-item {
-    display: flex;
-    align-items: center;
-    gap: 14px;
-    margin-bottom: 20px;
-    font-weight: 600;
-    font-size: 14px;
-  }
-  .contact-icon {
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    background-color: #1645b6;
-    border-radius: 3px;
-  }
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 8px 0;
+}
+
+.contact-icon svg {
+  color: #3b74f9; 
+}
   .contact-text {
     user-select: text;
   }
@@ -744,17 +739,43 @@
   <section class="kontak-section" aria-label="Kontak Ethan Carter">
     <h2 class="section-title">Kontak</h2>
     <div class="contact-item">
-      <div class="contact-icon"></div>
+      <div class="contact-icon">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+          <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 
+          0-2-.9-2-2V6c0-1.1.9-2 2-2zm0 4l8 5 8-5" stroke="currentColor"
+          stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </div>
       <span class="contact-text">Ethan.Carter_Design@gmail.com</span>
     </div>
+  
     <div class="contact-item">
-      <div class="contact-icon"></div>
+      <div class="contact-icon">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+          <path d="M22 16.92V21a1 1 0 0 1-1.09 1A19.86 19.86 0 0 1
+          3 5.09 1 1 0 0 1 4 4h4.09a1 1 0 0 1 1 .75 12.44 12.44 0 0 0 
+          .57 1.78 1 1 0 0 1-.23 1L8.91 9.91a16 16 0 0 0 6.18 6.18l2.38-2.38a1 
+          1 0 0 1 1-.24 12.44 12.44 0 0 0 1.78.57 1 1 0 0 1 .75 1z"
+          stroke="currentColor" stroke-width="2" stroke-linecap="round"
+          stroke-linejoin="round"/>
+        </svg>
+      </div>
       <span class="contact-text">+62813-7754-5599</span>
     </div>
+  
     <div class="contact-item">
-      <div class="contact-icon"></div>
+      <div class="contact-icon">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+          <path d="M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 
+          13s7-7.75 7-13a7 7 0 0 0-7-7zm0 9a2 2 0 
+          1 1 0-4 2 2 0 0 1 0 4z"
+          stroke="currentColor" stroke-width="2" stroke-linecap="round"
+          stroke-linejoin="round"/>
+        </svg>
+      </div>
       <span class="contact-text">Jakarta, Indonesia</span>
     </div>
+  
     <div class="social-icons" aria-label="Media Sosial">
       <a href="#" class="social-icon" aria-label="LinkedIn">in</a>
       <a href="#" class="social-icon facebook" aria-label="Facebook">f</a>
